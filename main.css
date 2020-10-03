@@ -1,0 +1,63 @@
+* 
+{
+    transition-duration: 0.5s;
+}
+
+#bar
+{
+	margin: 100px auto;
+	height: 40px;
+	width: 150px;
+	border-radius: 50px;
+	padding: 2px;
+	display: flex;
+    cursor: pointer;
+}
+
+#btn
+{
+	height: 40px;
+	width: 40px;
+	border-radius: 50%;
+}
+
+h1
+{
+	text-align: center;
+    font-size: 80px;
+    transition-duration: 0s;
+}
+
+.bar-light
+{
+    flex-direction: row;
+    border: 3px solid black;
+}
+
+.bar-dark
+{
+    flex-direction: row-reverse;
+    border: 3px solid white;
+}
+
+.btn-light
+{
+    background-color: black;
+}
+
+.btn-dark
+{
+    background-color: white;
+}
+
+.light
+{
+    background-color: white;
+    color: black;
+}
+
+.dark
+{
+    background-color: black;
+    color: white;
+}
